@@ -4,14 +4,14 @@
 # Header 1
 ## Header 2
 ### Header 3
+#### Header 4
+##### Header 5
 
 ```
 
 Output : 
-# Header 1
-## Header 2
 ### Header 3
-
+---------------------------------------------------
 2. ### Text formatting (b, i )
 
 ```
@@ -20,7 +20,9 @@ Output :
 ~~Strikethrough Text~~                 ( use ~~ )
 
 ```
-
+Output : 
+**Bold Text** ,   *Italic Text* , ~~Strikethrough Text~~ 
+----------------------------------------------------------------------------
 3. ### List( ul , ol)
    * Ordered List
       ```
@@ -59,7 +61,7 @@ Output :
 ___ (dashed line)
 
 ```
-7. Table (<table>)
+7. ### Table ('<table>')
 
 
 ```
@@ -75,7 +77,7 @@ Output:
 | Row 1, Col 1 | Row 1, Col 2 |
 | Row 2, Col 1 | Row 2, Col 2 |
 
-8 . Task List (checkbox) 
+8.  ### Task List (checkbox) 
 ```
 - [x] Task 1 (completed)
 - [ ] Task 2 (not completed)
