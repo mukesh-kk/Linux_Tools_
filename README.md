@@ -15,15 +15,16 @@ Output :
 2. ### Text formatting(b, i ) 
 
 ```
-**Bold Text**  or __Bold Text__        (use ** or __)
+**Bold Text**  or __Bold Text__        (use **  or __)
 *Italic Text*  or _Italic Text_        (use * or _ )
 ~~Strikethrough Text~~                 ( use ~~ )
 
 ```
+Output : 
 
-** Bold Text ** ,  
-*Italic Text* ,
-~~Strikethrough Text~~ 
+**BOLD**
+*ITALIC* 
+
 ----------------------------------------------------------------------------
 3. ### List( ul , ol)
    * Ordered List
