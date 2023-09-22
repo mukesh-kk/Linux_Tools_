@@ -1,5 +1,5 @@
 # Markdown Writing Guide
-1. ### For bold headings like( h1, h2 till h6 use #)
+1. ### For bold headings like( h1, h2 till h6 use ''#')
 ```
 # Header 1
 ## Header 2
@@ -11,8 +11,8 @@
 
 Output : 
 ### Header 3
----------------------------------------------------
-2. ### Text formatting (b, i )
+--------------------------------------------------------------------
+2. ### Text formatting(b, i ) 
 
 ```
 **Bold Text**  or __Bold Text__        (use ** or __)
@@ -20,8 +20,10 @@ Output :
 ~~Strikethrough Text~~                 ( use ~~ )
 
 ```
-Output : 
-**Bold Text** ,   *Italic Text* , ~~Strikethrough Text~~ 
+
+** Bold Text ** ,  
+*Italic Text* ,
+~~Strikethrough Text~~ 
 ----------------------------------------------------------------------------
 3. ### List( ul , ol)
    * Ordered List
@@ -36,6 +38,10 @@ Output :
         - Item Two
       ( use '-' )
       ```
+      Output
+      - Item One
+      - Item Two
+------------------------------------------------------------
 4. Links and Image( anchor)
     * [Link][https://www.google.com/]
       ```
