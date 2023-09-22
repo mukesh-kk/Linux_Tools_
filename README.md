@@ -68,7 +68,7 @@ Output :
 ___ (dashed line)
 
 ```
-7. ### Table ('<table>')
+7. ### Table ('table')
 
 
 ```
@@ -81,7 +81,6 @@ ___ (dashed line)
 Output: 
 
 | Header 1 | Header 2 |
-
 | -------- | -------- |
 | Row 1, Col 1 | Row 1, Col 2 |
 | Row 2, Col 1 | Row 2, Col 2 |
