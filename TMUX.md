@@ -20,3 +20,12 @@ shift +ctl +b + " (horizontal)
   ctl +b + <-
 
     ```
+* Close pan
+  ```
+  ctl + b + x
+  ```
+* Close tmux session
+
+```
+ctl + b + d
+```
