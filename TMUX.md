@@ -14,8 +14,8 @@ shift +ctl +b + " (horizontal)
 
 * Navigate in pans
    ```
-  ctl +b + o
-  ctl + b + l
+  ctl + b + o (next)
+  ctl + b + l (last)
   ctl + b + ->
   ctl +b + <-
 
