@@ -124,7 +124,7 @@ echo "Hello, $name! Welcome."
 ```
 
 ### Arguments to file 
-```
+
 Arguments passed to the file  are accessible by special variables $1,$2, etc.
 
 ```
@@ -134,3 +134,29 @@ echo "The second argument is: $2"
 echo "The third argument is: $3"
 
 ```
+
+### Data Types
+
+- String (Text): Strings are sequences of characters, enclosed in single or double quotes. For example:
+
+```
+name="John"
+message='Hello, World!'
+
+
+```
+- Integer or  Float Decimal: Bash can handle integers for arithmetic operations. However, it doesn't distinguish between integers and floating-point numbers. For example:
+  
+```
+  count=42
+  pi=3.14
+
+```
+
+- Array: Bash supports one-dimensional arrays. You can use arrays to store multiple values in a single variable. For example:
+  
+  ```
+  
+  fruits=("apple" "banana" "cherry")
+  
+  ```
