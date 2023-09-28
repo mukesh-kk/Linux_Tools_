@@ -85,7 +85,18 @@ until [ condition ]; do
 done
 
 ```
+### Numerical Comparison
+Numeric Comparisons:
 
+```
+-eq: Equal to (e.g., if [ $a -eq $b ]).
+-ne: Not equal to (e.g., if [ $a -ne $b ]).
+-lt: Less than (e.g., if [ $a -lt $b ]).
+-le: Less than or equal to (e.g., if [ $a -le $b ]).
+-gt: Greater than (e.g., if [ $a -gt $b ]).
+-ge: Greater than or equal to (e.g., if [ $a -ge $b ]).
+
+```
 ### Logical Operations
 AND (&&) and OR (||)  (! )Operators:
 ```
@@ -102,10 +113,24 @@ fi
 ```
 
 ### User Input 
+Use read 
 ```
 
 echo "Please enter your name: "
-read name
+read  name
+read -s password
 echo "Hello, $name! Welcome."
+
+```
+
+### Arguments to file 
+```
+Arguments passed to the file  are accessible by special variables $1,$2, etc.
+
+```
+ $1 represents the first argument, $2 the second, and so on.
+echo "The first argument is: $1"
+echo "The second argument is: $2"
+echo "The third argument is: $3"
 
 ```
