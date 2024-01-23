@@ -7,8 +7,8 @@ tmux
 
 * Split terminal :
 ```
-shift + ctl +b  + % (vertical)
-shift +ctl +b + " (horizontal)
+(shift + ctl) +(b+%)  (vertical)
+(shift +ctl) + (b + ") (horizontal)
   
 ```
 
